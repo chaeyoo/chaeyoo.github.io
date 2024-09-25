@@ -29,7 +29,7 @@ export default function Projects() {
 						<div className="company-info">
 							<h3>챗봇 봇빌더</h3>
 
-							<p>담당파트</p>
+							<p>에임메드</p>
 							<p>2022.03 ~ 현재</p>
 						</div>
 						<div className="job-description">

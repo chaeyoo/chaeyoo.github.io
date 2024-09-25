@@ -13,7 +13,7 @@ export default function PersonalInfo() {
 						</div>
 						<div>
 							<i className="icon blog"></i>
-							<a href="https://github.com/chaeyoo/blog">유채형의 블로그</a>
+							<a href="https://yoo-blog.tistory.com/">유채형의 블로그</a>
 						</div>
 						<div>
 							<i className="icon email"></i>chaeh0124@gmail.com

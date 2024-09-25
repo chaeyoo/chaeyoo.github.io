@@ -43,7 +43,7 @@ export default function Experience() {
 							<p className="highlight">국내 유전체 분석 시장점유율 1위 기업</p>
 							<ul>
 								<li>실험실 정보 관리 시스템 운영</li>
-								<li>유전자 분석 결과 발송 시스템 자동화</li>
+								<li>유전자 분석 결과 발송 시스템 자동화 모듈 개발</li>
 								<li>싱가폴 법인 유전자 분석 - 결과 프로세스 구축 </li>
 							</ul>
 						</div>
