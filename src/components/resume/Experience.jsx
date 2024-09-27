@@ -14,7 +14,8 @@ export default function Experience() {
 							<p>2022.03 ~ 현재</p>
 						</div>
 						<div className="job-description">
-							<p className="highlight">280개 기업이 사용하는 헬스케어 서비스</p>
+							<p className="highlight">280개 기업에 B2B 헬스 케어 서비스 제공</p>
+							<div className="tag-red">조기진급</div>
 							<ul>
 								<li>직무스트레스 보고서 자동화 시스템 프론트엔드 개발</li>
 								<li>사내 챗봇 봇빌더 사이트 개발</li>
