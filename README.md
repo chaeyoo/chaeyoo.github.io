@@ -1,4 +1,9 @@
-npm start로 개발 서버 실행
-변경사항 커밋 및 푸시
-npm run deploy로 배포
+# 개발서버 실행
+npm run start
+
+# 배포
+npm run deploy
+
+# URL
+https://chaeyoo.github.io/
 
