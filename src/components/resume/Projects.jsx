@@ -169,7 +169,7 @@ export default function Projects() {
 								<li>서버 모듈 및 폴더 세팅</li>
 							</ul>
 							<div className="tech-list">
-								{"JAVA, Spring framework, JSP, MyBatis, Javascript, jquery, Ajax, HTML, CSS, Oracle".split(", ").map((v, i) => (
+								{"JAVA, Spring, JSP, MyBatis, Javascript, jquery, Ajax, HTML, CSS, Oracle".split(", ").map((v, i) => (
 									<div key={i} className="tech-item">{v}</div>
 								))}
 							</div>
@@ -192,7 +192,7 @@ export default function Projects() {
 								<li>시스템 기능과 프로세스의 정의와 이력 관리를 위한 산출물 작성</li>
 							</ul>
 							<div className="tech-list">
-								{"JAVA, Spring framework, JSP, MyBatis, Javascript, jquery, Ajax, HTML, CSS, Oracle".split(", ").map((v, i) => (
+								{"JAVA, Spring, JSP, MyBatis, Javascript, jquery, Ajax, HTML, CSS, Oracle".split(", ").map((v, i) => (
 									<div key={i} className="tech-item">{v}</div>
 								))}
 							</div>
@@ -213,7 +213,7 @@ export default function Projects() {
 								<li>Java 모듈 수정</li>
 							</ul>
 							<div className="tech-list">
-								{"JAVA, Spring framework, JSP, MyBatis, Javascript, jquery, Ajax, HTML, CSS, Oracle".split(", ").map((v, i) => (
+								{"JAVA, Spring, JSP, MyBatis, Javascript, jquery, Ajax, HTML, CSS, Oracle".split(", ").map((v, i) => (
 									<div key={i} className="tech-item">{v}</div>
 								))}
 							</div>
