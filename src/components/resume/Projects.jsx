@@ -15,7 +15,7 @@ export default function Projects() {
 						</div>
 						<div className="job-description">
 							<p className="highlight">
-								웰잇고 고도화 이후 어드민 고도화에 대한 필요를 느꼈고, 요구사항을 조사하여 고도화를 진행하였습니다.
+								웰잇고 고도화 이후 어드민 고도화에 대한 필요를 느꼈고, 웰잇고 서비스를 관리하는 현업의 요구사항을 조사하여 고도화를 진행하였습니다.
 								기존 관리자의 16 버전 리액트를 18 버전으로 마이그레이션 및 호환되는 라이브러리 업데이트를 수행하여
 								개발 생산성과 유지 보수성을 증가시켰습니다. 또한, 월별로 요청이 오는 "레포트 작성을 위한 raw data 추출 업무
 								프로세스 개선을 위해 메뉴를 신설하여 비효율적인 업무를 제거하였습니다.
@@ -40,16 +40,13 @@ export default function Projects() {
 						<div className="job-description">
 							<p className="highlight">
 								웰잇고에서 제공하는 건강 관련 데일리 특별 미션과 주마다 건강 정보를
-								제공하는 케어 메시지를 사내 챗봇과 연동하여 다양한 서비스를 제공할 수 있도록 함
-								생활습관 문진에 대한 API 작성
-								또한, 앱 고도화와 관련된 내용만 기획으로 제공되어, 자체적으로 어드민에서 고도화되어야 할
-								부분들을 찾아 작업 진행
+								제공하는 케어 메시지를 사내 챗봇과 연동하여 다양한 서비스를 제공할 수 있도록 하였습니다.
+								또한, 앱프론트가 React에서 React Native로 전환 개발되면서 변동되는 푸시 관련 사항들을 점검 및 변경하였습니다.
 							</p>
 							<ul>
 								<li>사내 챗봇 연동을 위해 프로세스 설계</li>
 								<li>인스턴스 메시지 배치 개발</li>
 								<li>앱이 React에서 React Native로 변경됨에 따라 푸시 프로세스 변경</li>
-								<li>어드민 리액트 버전을 16에서 18로 마이그레이션 및 호환 라이브러리 업데이트</li>
 							</ul>
 							<div className="tech-list">
 								{"Java, Spring, Pass, JPA, MyBatis, MySql".split(", ").map((v, i) => (
@@ -66,9 +63,9 @@ export default function Projects() {
 						</div>
 						<div className="job-description">
 							<p className="highlight">
-								Next.js를 사용하여 협약 맺은 병원에서 고객을 유입시킬 수 있도록,
-								개인 정보를 받고 웰잇고 사용 접수를 할 수 있는 사이트 제작. 병원마다 URL이 달라져야 하여
-								Next.js (App Router) 방식의 dynamic한 routing 방식을 적극 활용함
+								Next.js를 사용하여 협약 맺은 병원에서 고객을 유입시킬 수 있도록
+								개인 정보를 받고 웰잇고 사용 접수를 할 수 있는 사이트 제작하였습니다. 병원마다 URL이 달라져야 하여
+								Next.js (App Router) 방식의 dynamic한 routing 방식을 적극 활용하여 개발하였습니다.
 							</p>
 							<ul>
 								<li>Next.js App Router로 설계 및 전체 개발</li>
@@ -117,12 +114,13 @@ export default function Projects() {
 						</div>
 						<div className="job-description">
 							<p className="highlight">
-								"건강이로움" 백오피스 프로젝트에서 리액트 프론트엔드와 자바 스프링 백엔드로 기능 구현
+								"건강이로움" 백오피스 프로젝트에서 React 프론트엔드와 Java/Spring 백엔드로 구현하였습니다.
+								개발하는 속도가 빨라 프로젝트 인원 중 가장 많은 메뉴를 담당하였습니다.
 							</p>
 							<ul>
-								<li>권한관리, 로그인 등 다양한 기능 개발</li>
+								<li>권한관리, 로그인, 관리자 관리, 공지사항 관리, FAQ 관리, 문의 관리, 약관 관리
+									푸시 관리, 이메일 관리, SMS관리, 프로그램 안내 관리 다수 메뉴 개발</li>
 								<li>프론트엔드 개발 시 공통 컴포넌트 제작하여 개발 생산성 향상</li>
-								<li>빠른 개발속도로 wbs 일정 사전 완료 및 테스트에 시간 할애</li>
 							</ul>
 							<div className="tech-list">
 								{"React, React-query, scss, antd".split(", ").map((v, i) => (
@@ -139,7 +137,9 @@ export default function Projects() {
 						</div>
 						<div className="job-description">
 							<p className="highlight">
-								직무 스트레스 검사 결과에 대한 분석을 하여 차트와 표가 포함된 보고서를 자동으로 생성해주는 사이트
+								직무 스트레스 검사 결과에 대한 분석을 하여 차트와 표가 포함된 보고서를 자동으로 생성해주는 사이트입니다.
+								현업이 엑셀로 직접 작업하여 차트와 표를 그리고 코멘트를 작성하여 만들던 보고서를 자동으로 생성하면서
+								생산성과 업무 효율이 증가하였습니다.
 							</p>
 							<ul>
 								<li>React를 사용하여 프론트엔드 개발</li>
@@ -156,13 +156,16 @@ export default function Projects() {
 
 					<div className="experience-item">
 						<div className="company-info">
-							<h3>싱가폴, 유럽 법인 유전자 분석 결과 Raw 파일 서버 업로드 분석 및 결과 발송 프로세스 구축</h3>
+							<h3>싱가폴/유럽 법인 유전자 분석 결과 Raw 파일 서버 업로드 분석 및 결과 발송 프로세스 구축</h3>
 							<p>마크로젠</p>
 							<p>2021.09 ~ 2021.11</p>
 						</div>
 						<div className="job-description">
 							<p className="highlight">
-								기존에는 본사에서 싱가폴과 유럽 법인의 결과 파일을 받아 결과 발송까지 진행하였지만, 관리 체계 분리 필요로 작업 진행
+								기존에는 본사에서 싱가폴과 유럽 법인의 결과 파일을 받아 결과 발송까지 진행하였지만, 
+								관리 체계 분리 필요로 작업을 하였습니다. 프로세스 구축에 필요한 유전자 분석 기기에 연결된 PC의 폴더 세팅부터
+								결과 파일이 생성되고 분석 및 결과 발송 모듈이 실행되는 서버 구축까지 진행하였습니다.
+								
 							</p>
 							<ul>
 								<li>Team viewer로 원격 접근하여 작업 진행</li>
@@ -183,7 +186,7 @@ export default function Projects() {
 						</div>
 						<div className="job-description">
 							<p className="highlight">
-								시스템을 사용하는 현업 부서의 요구사항에 따른 시스템 기능 개발, 테스트, 반영
+								시스템을 사용하는 현업 부서의 요구사항에 따른 시스템 기능 개발 및 개선하였습니다.
 							</p>
 							<ul>
 								<li>시스템의 주문-공정-결과 프로세스 관리, 유지 보수</li>
