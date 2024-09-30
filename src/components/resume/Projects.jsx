@@ -36,6 +36,7 @@ export default function Projects() {
 							<h3>건강관리 서비스 "웰잇고" 앱 백엔드 고도화</h3>
 							<p>에임메드</p>
 							<p>2023.12 ~ 2024.06</p>
+
 						</div>
 						<div className="job-description">
 							<p className="highlight">
@@ -75,7 +76,7 @@ export default function Projects() {
 								</li>
 							</ul>
 							<div className="tech-list">
-								{"Next.js (App router), Recoil, scss, crypto-js, prisma".split(", ").map((v, i) => (
+								{"Next.js, Recoil, scss, crypto-js, prisma".split(", ").map((v, i) => (
 									<div key={i} className="tech-item">{v}</div>
 								))}
 							</div>
@@ -100,7 +101,7 @@ export default function Projects() {
 								<li>텍스트, 이미지, 카드, 옵션플러그인 제작 기능 구현</li>
 							</ul>
 							<div className="tech-list">
-								{"Next.js (Page router), Recoil, prisma, NextAuth, MySql, antd".split(", ").map((v, i) => (
+								{"Next.js, Recoil, prisma, NextAuth, MySql, antd".split(", ").map((v, i) => (
 									<div key={i} className="tech-item">{v}</div>
 								))}
 							</div>
@@ -162,10 +163,10 @@ export default function Projects() {
 						</div>
 						<div className="job-description">
 							<p className="highlight">
-								기존에는 본사에서 싱가폴과 유럽 법인의 결과 파일을 받아 결과 발송까지 진행하였지만, 
+								기존에는 본사에서 싱가폴과 유럽 법인의 결과 파일을 받아 결과 발송까지 진행하였지만,
 								관리 체계 분리 필요로 작업을 하였습니다. 프로세스 구축에 필요한 유전자 분석 기기에 연결된 PC의 폴더 세팅부터
 								결과 파일이 생성되고 분석 및 결과 발송 모듈이 실행되는 서버 구축까지 진행하였습니다.
-								
+
 							</p>
 							<ul>
 								<li>Team viewer로 원격 접근하여 작업 진행</li>

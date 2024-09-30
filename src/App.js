@@ -6,6 +6,7 @@ import Introduction from './components/resume/Introduction';
 import Experience from './components/resume/Experience';
 import Projects from './components/resume/Projects';
 import Education from './components/resume/Education';
+import SideProject from './components/resume/SideProjects';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Introduction />
       <Experience />
       <Projects />
+      <SideProject />
       <Education />
     </div>
   );

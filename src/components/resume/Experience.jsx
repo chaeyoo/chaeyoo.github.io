@@ -11,7 +11,7 @@ export default function Experience() {
 							<h3>에임메드</h3>
 							<p className="highlight">280개 기업에 B2B 헬스 케어 서비스 제공</p>
 							<a href="https://www.aimmed.co.kr/">https://www.aimmed.co.kr/</a>
-							<p>주임연구원</p>
+							<p>대리</p>
 							<p>2022.03 ~ 현재</p>
 						</div>
 						<div className="job-description">

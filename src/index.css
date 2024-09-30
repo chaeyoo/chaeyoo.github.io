@@ -158,6 +158,13 @@ ul {
   margin-bottom: 0.3rem;
 }
 
+.side-section {
+  margin-top: 20px;
+}
+
+.side-section-title{ 
+  font-weight: 600
+}
 .badge {
   background-color: #f0f0f0;
   color: #333333;
