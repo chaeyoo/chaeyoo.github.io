@@ -10,7 +10,7 @@ export default function SideProject() {
 						<div className="company-info">
 							<h3>넥스트 레벨</h3>
 							<p className="highlight">Next.js와 React의 최신 버전 내용 학습</p>
-							<p>2024.07.22 ~ 2024.09.06</p>
+							<p>2024.08 ~ 2024.09</p>
 							<a
 								href="https://next-level-theta.vercel.app"
 								style={{ textDecoration: "underline" }}
@@ -63,7 +63,7 @@ export default function SideProject() {
 							<p className="highlight">
 								빌드 도구, 패키지 매니저, 모노레포 기술 구현 이해도 더하기
 							</p>
-							<p>2024.07 ~ 2024.08</p>
+							<p>2024.07~ 2024.08</p>
 							<a
 								href="https://main.d38wyme95zjr0p.amplifyapp.com/"
 								style={{ textDecoration: "underline" }}
@@ -114,7 +114,7 @@ export default function SideProject() {
 						<div className="company-info">
 							<h3>퀴즈랩</h3>
 							<p className="highlight">리액트 테스트 코드 작성 연습</p>
-							<p>2024.07 ~ 2024.09</p>
+							<p>2024.06 ~ 2024.09</p>
 							<a
 								href="https://main.d3102voefpy56i.amplifyapp.com/"
 								style={{ textDecoration: "underline" }}
@@ -173,7 +173,7 @@ export default function SideProject() {
 							<p className="highlight">
 								리액트 프로젝트 환경을 구성하는 방법과 성능 최적화 방안 고민
 							</p>
-							<p>2024.07 ~ 2024.09</p>
+							<p>2024.05 ~ 2024.06</p>
 							<a
 								href="https://master.d4zwbzignxki2.amplifyapp.com/"
 								style={{ textDecoration: "underline" }}
