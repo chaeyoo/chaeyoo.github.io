@@ -9,11 +9,11 @@ export default function PersonalInfo() {
 					<div className="personal-info">
 						<div>
 							<i className="icon github"></i>
-							<a href="https://github.com/chaeyoo">유채형의 깃허브</a>
+							<a href="https://github.com/chaeyoo" target='_blank'>유채형의 깃허브</a>
 						</div>
 						<div>
 							<i className="icon blog"></i>
-							<a href="https://yoo-blog.tistory.com/">유채형의 블로그</a>
+							<a href="https://yoo-blog.tistory.com/" target='_blank'>유채형의 블로그</a>
 						</div>
 						<div>
 							<i className="icon email"></i>chaeh0124@gmail.com

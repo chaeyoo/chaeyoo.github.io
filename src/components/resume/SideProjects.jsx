@@ -13,7 +13,7 @@ export default function SideProject() {
 							<p>2024.08 ~ 2024.09</p>
 							<a
 								href="https://next-level-theta.vercel.app"
-								style={{ textDecoration: "underline" }}
+								target='_blank'
 							>
 								넥스트 레벨 사이트 (테스트 계정: ID - test3@email.com | PW -
 								123456)
@@ -21,14 +21,14 @@ export default function SideProject() {
 							<br />
 							<a
 								href="https://oxidized-broom-36d.notion.site/Next-Level-75cc03eaa7174e5492e3909021eec8a2"
-								style={{ textDecoration: "underline" }}
+								target='_blank'
 							>
 								프로젝트 기술서
 							</a>
 							<br />
 							<a
 								href="https://github.com/chaeyoo/next-level"
-								style={{ textDecoration: "underline" }}
+								target='_blank'
 							>
 								레포지토리
 							</a>
@@ -60,13 +60,11 @@ export default function SideProject() {
 					<div className="experience-item">
 						<div className="company-info">
 							<h3>할일에 대하여</h3>
-							<p className="highlight">
-								빌드 도구, 패키지 매니저, 모노레포 기술 구현 이해도 더하기
-							</p>
-							<p>2024.07~ 2024.08</p>
+							<p className="highlight">빌드 도구, 패키지 매니저, 모노레포 기술 구현 이해도 더하기</p>
+							<p>2024.08 ~ 2024.09</p>
 							<a
-								href="https://main.d38wyme95zjr0p.amplifyapp.com/"
-								style={{ textDecoration: "underline" }}
+								href="https://main.d38wyme95zjr0p.amplifyapp.com/signin"
+								target='_blank'
 							>
 								할일에 대하여 사이트 (테스트 계정: ID - test2@email.com | PW -
 								123456)
@@ -74,14 +72,14 @@ export default function SideProject() {
 							<br />
 							<a
 								href="https://oxidized-broom-36d.notion.site/a3d544bfa1fb4b09bf09992f33b744ce"
-								style={{ textDecoration: "underline" }}
+								target='_blank'
 							>
 								프로젝트 기술서
 							</a>
 							<br />
 							<a
 								href="https://github.com/chaeyoo/todo-monorepo"
-								style={{ textDecoration: "underline" }}
+								target='_blank'
 							>
 								레포지토리
 							</a>
@@ -100,7 +98,7 @@ export default function SideProject() {
 							</div>
 
 							<div className="tech-list">
-								{"React, typescript, zustand, emotion, webpack, turboF, pnpm, amplify, supabase"
+								{"React, typescript, zustand, emotion, turbo, pnpm, amplify, supabase"
 									.split(", ")
 									.map((v, i) => (
 										<div key={i} className="tech-item">
@@ -110,6 +108,8 @@ export default function SideProject() {
 							</div>
 						</div>
 					</div>
+
+
 					<div className="experience-item">
 						<div className="company-info">
 							<h3>퀴즈랩</h3>
@@ -117,21 +117,21 @@ export default function SideProject() {
 							<p>2024.06 ~ 2024.09</p>
 							<a
 								href="https://main.d3102voefpy56i.amplifyapp.com/"
-								style={{ textDecoration: "underline" }}
+								target='_blank'
 							>
 								퀴즈랩 사이트
 							</a>
 							<br />
 							<a
 								href="https://oxidized-broom-36d.notion.site/f51b10b82a9c4aac9d0edc566f60a3d0"
-								style={{ textDecoration: "underline" }}
+								target='_blank'
 							>
 								프로젝트 기술서
 							</a>
 							<br />
 							<a
 								href="https://github.com/chaeyoo/quiz-lab"
-								style={{ textDecoration: "underline" }}
+								target='_blank'
 							>
 								레포지토리
 							</a>
@@ -176,21 +176,21 @@ export default function SideProject() {
 							<p>2024.05 ~ 2024.06</p>
 							<a
 								href="https://master.d4zwbzignxki2.amplifyapp.com/"
-								style={{ textDecoration: "underline" }}
+								target='_blank'
 							>
 								해피 파티 데이 사이트
 							</a>
 							<br />
 							<a
 								href="https://oxidized-broom-36d.notion.site/e22b50537a8a489093663366cc75defc"
-								style={{ textDecoration: "underline" }}
+								target='_blank'
 							>
 								프로젝트 기술서
 							</a>
 							<br />
 							<a
 								href="https://github.com/chaeyoo/happy-party"
-								style={{ textDecoration: "underline" }}
+								target='_blank'
 							>
 								레포지토리
 							</a>
