@@ -1,4 +1,5 @@
 import Section from "../layout/section";
+import { RiNotionFill } from "react-icons/ri";
 
 export default function SideProject() {
 	return (
@@ -9,8 +10,20 @@ export default function SideProject() {
 					<div className="experience-item">
 						<div className="company-info">
 							<h3>넥스트 레벨</h3>
+
 							<p className="highlight">Next.js와 React의 최신 버전 내용 학습</p>
+							<div
+								className="project-docs"
+								onClick={() => {
+									window.open("https://oxidized-broom-36d.notion.site/Next-Level-75cc03eaa7174e5492e3909021eec8a2?pvs=4", "_blank");
+
+								}}
+							>
+								<RiNotionFill className="notion-icon" />
+								프로젝트 기술서
+							</div>
 							<p>2024.08 ~ 2024.09</p>
+
 							<a
 								href="https://next-level-theta.vercel.app"
 								target='_blank'
@@ -18,13 +31,7 @@ export default function SideProject() {
 								넥스트 레벨 사이트 (테스트 계정: ID - test3@email.com | PW -
 								123456)
 							</a>
-							<br />
-							<a
-								href="https://oxidized-broom-36d.notion.site/Next-Level-75cc03eaa7174e5492e3909021eec8a2"
-								target='_blank'
-							>
-								프로젝트 기술서
-							</a>
+
 							<br />
 							<a
 								href="https://github.com/chaeyoo/next-level"
@@ -32,6 +39,8 @@ export default function SideProject() {
 							>
 								레포지토리
 							</a>
+
+
 						</div>
 						<div className="job-description">
 							<p className="highlight">
@@ -61,6 +70,16 @@ export default function SideProject() {
 						<div className="company-info">
 							<h3>할일에 대하여</h3>
 							<p className="highlight">빌드 도구, 패키지 매니저, 모노레포 기술 구현 이해도 더하기</p>
+							<div
+								className="project-docs"
+								onClick={() => {
+									window.open("https://oxidized-broom-36d.notion.site/a3d544bfa1fb4b09bf09992f33b744ce?pvs=4", "_blank");
+
+								}}
+							>
+								<RiNotionFill className="notion-icon" />
+								프로젝트 기술서
+							</div>
 							<p>2024.08 ~ 2024.09</p>
 							<a
 								href="https://main.d38wyme95zjr0p.amplifyapp.com/signin"
@@ -69,13 +88,7 @@ export default function SideProject() {
 								할일에 대하여 사이트 (테스트 계정: ID - test2@email.com | PW -
 								123456)
 							</a>
-							<br />
-							<a
-								href="https://oxidized-broom-36d.notion.site/a3d544bfa1fb4b09bf09992f33b744ce"
-								target='_blank'
-							>
-								프로젝트 기술서
-							</a>
+
 							<br />
 							<a
 								href="https://github.com/chaeyoo/todo-monorepo"
@@ -114,6 +127,16 @@ export default function SideProject() {
 						<div className="company-info">
 							<h3>퀴즈랩</h3>
 							<p className="highlight">리액트 테스트 코드 작성 연습</p>
+							<div
+								className="project-docs"
+								onClick={() => {
+									window.open("https://oxidized-broom-36d.notion.site/f51b10b82a9c4aac9d0edc566f60a3d0?pvs=4", "_blank");
+
+								}}
+							>
+								<RiNotionFill className="notion-icon" />
+								프로젝트 기술서
+							</div>
 							<p>2024.06 ~ 2024.09</p>
 							<a
 								href="https://main.d3102voefpy56i.amplifyapp.com/"
@@ -121,13 +144,7 @@ export default function SideProject() {
 							>
 								퀴즈랩 사이트
 							</a>
-							<br />
-							<a
-								href="https://oxidized-broom-36d.notion.site/f51b10b82a9c4aac9d0edc566f60a3d0"
-								target='_blank'
-							>
-								프로젝트 기술서
-							</a>
+
 							<br />
 							<a
 								href="https://github.com/chaeyoo/quiz-lab"
@@ -166,13 +183,25 @@ export default function SideProject() {
 									))}
 							</div>
 						</div>
+
 					</div>
+
 					<div className="experience-item">
 						<div className="company-info">
 							<h3>해피 파티 데이</h3>
 							<p className="highlight">
 								리액트 프로젝트 환경을 구성하는 방법과 성능 최적화 방안 고민
 							</p>
+							<div
+								className="project-docs"
+								onClick={() => {
+									window.open("https://oxidized-broom-36d.notion.site/e22b50537a8a489093663366cc75defc?pvs=4", "_blank");
+
+								}}
+							>
+								<RiNotionFill className="notion-icon" />
+								프로젝트 기술서
+							</div>
 							<p>2024.05 ~ 2024.06</p>
 							<a
 								href="https://master.d4zwbzignxki2.amplifyapp.com/"
@@ -180,13 +209,7 @@ export default function SideProject() {
 							>
 								해피 파티 데이 사이트
 							</a>
-							<br />
-							<a
-								href="https://oxidized-broom-36d.notion.site/e22b50537a8a489093663366cc75defc"
-								target='_blank'
-							>
-								프로젝트 기술서
-							</a>
+
 							<br />
 							<a
 								href="https://github.com/chaeyoo/happy-party"
