@@ -142,7 +142,7 @@ export default function SideProject() {
 								href="https://main.d3102voefpy56i.amplifyapp.com/"
 								target='_blank'
 							>
-								퀴즈랩 사이트
+								퀴즈랩 사이트 (모바일 모드로 확인)
 							</a>
 
 							<br />
