@@ -1,6 +1,10 @@
 import Section from "../layout/section";
 import { CopyToClipboard } from 'react-copy-to-clipboard'
+import { FaGithub } from "react-icons/fa6";
 import { FaRegCopy } from "react-icons/fa";
+import { MdContactMail } from "react-icons/md";
+import { ImBooks } from "react-icons/im";
+import { MdContactPhone } from "react-icons/md";
 export default function PersonalInfo() {
 	let email = 'chaeh0124@gmail.com';
 	return (
@@ -10,15 +14,15 @@ export default function PersonalInfo() {
 				<>
 					<div className="personal-info">
 						<div>
-							<i className="icon github"></i>
+							<FaGithub className="info-icon" />
 							<a href="https://github.com/chaeyoo" target='_blank'>유채형의 깃허브</a>
 						</div>
 						<div>
-							<i className="icon blog"></i>
+							<ImBooks className="info-icon" />
 							<a href="https://yoo-blog.tistory.com/" target='_blank'>유채형의 블로그</a>
 						</div>
 						<div>
-							<i className="icon email"></i>{email}
+							<MdContactMail className="info-icon" />{email}
 							<CopyToClipboard
 								text={email}
 								onCopy={() => {
@@ -30,7 +34,7 @@ export default function PersonalInfo() {
 							</CopyToClipboard>
 						</div>
 						<div>
-							<i className="icon phone"></i>010-9139-3987
+							<MdContactPhone className="info-icon" />010-9139-3987
 						</div>
 					</div>
 				</>

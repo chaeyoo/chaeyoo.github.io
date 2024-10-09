@@ -60,6 +60,12 @@ body {
   font-style: normal;
 }
 
+.info-icon {
+  font-size: 1.4rem;
+  margin-right: 0.5rem;
+  color: rgb(17, 1, 73);
+}
+
 .icon::before {
   font-size: 1.2rem;
 }
@@ -75,7 +81,7 @@ body {
 }
 
 .icon.email::before {
-  content: "\2709";
+  content: "\1F4E7";
   /* 봉투 이모지 */
 }
 
@@ -174,7 +180,8 @@ margin-bottom: 3px;
 }
 
 .copy-icon{
-  margin-left: 0.5rem;
+  margin-left: 0.2rem;
+  font-size: 13px;
 }
 
 .notion-icon {
