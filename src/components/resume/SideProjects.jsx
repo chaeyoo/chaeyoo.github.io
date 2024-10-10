@@ -31,7 +31,7 @@ export default function SideProject() {
 								넥스트 레벨 사이트 (테스트 계정: ID - test3@email.com | PW -
 								123456)
 							</a>
-
+							<p style={{ fontSize: '12px', color: 'brown', fontWeight: 600 }}>[참고사항] <br />Vercel 무료 티어 + PostgreSQL DB 연결하여 느림</p>
 							<br />
 							<a
 								href="https://github.com/chaeyoo/next-level"
@@ -85,7 +85,7 @@ export default function SideProject() {
 								href="https://main.d38wyme95zjr0p.amplifyapp.com/signin"
 								target='_blank'
 							>
-								할일에 대하여 사이트 (테스트 계정: ID - test2@email.com | PW -
+								할일에 대하여 사이트 (테스트 계정: ID - test3@email.com | PW -
 								123456)
 							</a>
 
