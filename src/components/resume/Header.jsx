@@ -10,7 +10,7 @@ export default function Header() {
 			</div>
 			<div className="resume-btn-container">
 				<PDFDownloadButton
-					pdfUrl="https://my-job-image-bucket.s3.ap-northeast-2.amazonaws.com/resume_chyoo.pdf"
+					pdfUrl="https://my-job-image-bucket.s3.ap-northeast-2.amazonaws.com/resume_241011.pdf"
 					fileName="유채형_이력서.pdf"
 				/>
 			</div>
