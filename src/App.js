@@ -7,7 +7,6 @@ import Experience from './components/resume/Experience';
 import Projects from './components/resume/Projects';
 import Education from './components/resume/Education';
 import SideProject from './components/resume/SideProjects';
-import PDFDownloadButton from './components/resume/DownlodaBtn';
 
 const App = () => {
   return (
