@@ -23,6 +23,40 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.resume-download-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border: 2px solid rgb(60, 60, 60);
+  background-color: transparent;
+  color: black;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.resume-download-btn:hover {
+  background-color: #eeeded;
+  color: #222;
+}
+
+.resume-download-btn span {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+  .resume-download-btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+
+  .resume-download-btn span {
+    display: none;
+  }
+}
+
 .section-title {
   font-size: 1.8rem;
   border-bottom: 2px dashed #c4c4c4;
@@ -164,7 +198,7 @@ ul {
   font-size: 12px;
   border-radius: 3px;
   font-weight: bold;
-margin-bottom: 3px;
+  margin-bottom: 3px;
 }
 
 .project-docs {
@@ -179,7 +213,7 @@ margin-bottom: 3px;
   cursor: pointer;
 }
 
-.copy-icon{
+.copy-icon {
   margin-left: 0.2rem;
   font-size: 13px;
 }
@@ -236,6 +270,16 @@ margin-bottom: 3px;
   }
 
 
+}
+
+.resume-btn-container {
+  margin-top: 35px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 
 .date {

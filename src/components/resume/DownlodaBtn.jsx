@@ -2,6 +2,7 @@ import React from 'react';
 import { Download } from 'lucide-react';
 
 const PDFDownloadButton = ({ pdfUrl, fileName }) => {
+
     const handleDownload = async () => {
         try {
             const response = await fetch(pdfUrl);
@@ -21,14 +22,9 @@ const PDFDownloadButton = ({ pdfUrl, fileName }) => {
     };
 
     return (
-        <button
-            onClick={handleDownload}
-            style={{width: '280px', height: '40px', borderRadius: '10px', 
-                backgroundColor: '#fff', color: '#000', fontSize: '18px', 
-                fontWeight: 'bold', cursor: 'pointer'}}
-        >
-            <Download className="mr-2" size={20} />
-            이력서 PDF 다운로드
+        <button onClick={handleDownload} className="resume-download-btn">
+            <Download size={20} />
+            <span>이력서 PDF 다운로드</span>
         </button>
     );
 };
