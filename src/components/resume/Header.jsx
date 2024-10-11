@@ -1,4 +1,5 @@
-import PDFDownloadButton from "./DownlodaBtn";
+import PDFDownloadButton from "./DownloadBtn";
+
 
 export default function Header() {
 	return (
@@ -9,7 +10,7 @@ export default function Header() {
 			</div>
 			<div className="resume-btn-container">
 				<PDFDownloadButton
-					pdfUrl="https://my-job-image-bucket.s3.ap-northeast-2.amazonaws.com/chyoo_resume.pdf"
+					pdfUrl="https://my-job-image-bucket.s3.ap-northeast-2.amazonaws.com/resume_chyoo.pdf"
 					fileName="유채형_이력서.pdf"
 				/>
 			</div>
