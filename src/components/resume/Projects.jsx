@@ -10,7 +10,7 @@ export default function Projects() {
 						<div className="company-info">
 							<h3>건강관리 플랫폼 "웰잇고" 어드민 고도화</h3>
 							<p>에임메드</p>
-							<p>2023.07 ~</p>
+							<p>2024.07 ~</p>
 						</div>
 						<div className="job-description">
 							<p className="highlight">
