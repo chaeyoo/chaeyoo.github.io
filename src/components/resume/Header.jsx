@@ -6,7 +6,7 @@ export default function Header() {
 		<div className="header-container">
 			<div className="resume-header">
 				<h1 className="resume-title">유채형</h1>
-				<div className="resume-sub-title">프론트엔드 개발자</div>
+				<div className="resume-sub-title">해결사 개발자입니다</div>
 			</div>
 			<div className="resume-btn-container">
 				<PDFDownloadButton
